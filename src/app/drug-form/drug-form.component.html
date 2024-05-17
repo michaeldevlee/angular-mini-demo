@@ -1,0 +1,10 @@
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <p>Mechanism of Action</p>
+    <input formControlName="moa" type="text" [(ngModel)]="name">
+    <p>Generic Name</p>
+    <input formControlName="generic_name" type="text">
+    <p>Brand Name</p>
+    <input formControlName="brand_name" type="text">
+    <input type="submit">
+</form>
